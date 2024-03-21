@@ -57,13 +57,13 @@ jobs:
         rust-version: 1.64.0
 
     - name: Get deps cache
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: deps/
         key: deps-${{ runner.os }}-${{ matrix.otp }}-${{ matrix.elixir }}-${{ hashFiles('**/mix.lock') }}
 
     - name: Get build cache
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: _build/test/
         key: build-${{ runner.os }}-${{ matrix.otp }}-${{ matrix.elixir }}-${{ hashFiles('**/mix.lock') }}
