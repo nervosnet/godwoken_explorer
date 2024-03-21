@@ -119,7 +119,7 @@ defmodule GodwokenExplorer.MixProject do
       # tool
       {:timex, "~> 3.0"},
       {:retry, "~> 0.18"},
-      {:briefly, "~> 0.4"},
+      {:briefly, "~> 0.5"},
       {:nimble_csv, "~> 1.1"},
       #      {:prom_ex, "~> 1.7.1"},
       {:dotenv, "~> 3.1.0", only: [:dev, :test]},
