@@ -123,7 +123,7 @@ defmodule GodwokenExplorer.MixProject do
       {:nimble_csv, "~> 1.1"},
       #      {:prom_ex, "~> 1.7.1"},
       {:dotenv, "~> 3.1.0", only: [:dev, :test]},
-      {:ex_doc, "~> 0.30", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.36", only: :dev, runtime: false},
 
       # cron job
       {:oban, "~> 2.12"},
