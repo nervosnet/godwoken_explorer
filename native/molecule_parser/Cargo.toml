@@ -13,4 +13,4 @@ crate-type = ["dylib"]
 rustler = "0.30.0"
 molecule = { version = "0.7.5", default-features = false }
 hex= "0.4.3"
-ckb-hash = "0.112.1"
+ckb-hash = "0.121.0"
